@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 5rem;
+    width: 5rem;
+    margin-left: 20rem;
+    /* margin-top: 0.25rem; */
+}
+
+input[type = "text"]{
+    padding-left: 0.5rem;
+    outline: none;
+    border: none;
+    background-color:  rgb(242, 227, 252);
+    color: blueviolet;
+}
+p{
+    margin-left: 18rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: blueviolet;
+}
+.reg_no{
+
+    margin-left: 16rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    color: blueviolet;
+}
+.family{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blueviolet;
+    margin-top: 0.5rem;
+}
+.cwe{
+
+    margin-left: 16rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: blueviolet;
+}
+.date{
+
+    margin-left: 16rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: blueviolet;
+}
+h2{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: blueviolet;
+}
+
+table,td{
+    border: .1rem solid white;
+    margin-left: 7rem;
+}
+th{
+    background-color: blueviolet;
+    color: white;
+}
+#but{
+    height: 1.5rem;
+    width: 10rem;
+    margin-top: 2rem;
+    margin-left: 17rem;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+#but:hover{
+    background-color: rgb(72, 9, 132);
+    color: white;
+    cursor: pointer;
+}
+
+#but2{
+    height: 2.5rem;
+    margin-top: 2rem;
+    width: 15rem;
+    margin-left: 17rem;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+#but2:hover{
+    background-color: rgb(72, 9, 132);
+    color: white;
+    cursor: pointer;
+}
+
+#box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    width: 50rem;
+    height: 64rem;
+    padding-top: 5rem;
+    padding-left: 1rem;
+    border: 0.7rem solid blueviolet;
+    border-radius: 3rem;
+    box-sizing: border-box;
+    background-color: rgb(242, 227, 252);
+}
